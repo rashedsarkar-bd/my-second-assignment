@@ -118,7 +118,7 @@
 .btn-1{
   background: linear-gradient(to top, #f7E93F, #FB09B4, #9100F8);
   color: #FFFFFF;
-  padding: 12.5px 20px 12.5px 20px;
+  padding: 12.5px 20px 0px 20px;
   border: none;
   border-radius: 20px;
   font-weight: 600;
@@ -130,7 +130,7 @@
   color: #00FF88;
   border: 2px solid #00FF88;
   border-radius: 20px;
-  padding: 12.5px 20px 12.5px 20px;
+  padding: 12.5px 20px 0px 20px;
   font-weight: 600;
   font-size: 18px;
 }
