@@ -31,13 +31,14 @@
   list-style: none;
   gap: 32px;
   border-bottom: 2px #1A0B2E;
+  font-weight: 200;
 }
 
 .btn-first{
   background: linear-gradient(to top, #f7E93F, #FB09B4, #9100F8);
   color: #FFFFFF;
   font-weight: 600;
-  padding: 12.5px 12px 12.5px 16px;
+  padding: 12.5px 12px 0 16px;
   border: none;
   border-radius: 20px;
 }
@@ -142,7 +143,7 @@
 }
 .main-section-dscr p{
   color:#FFFFFF;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .card-container{
@@ -163,7 +164,7 @@
 }
 .card-container p{
   color:#FFFFFF;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .grid{
@@ -194,7 +195,7 @@
 
 .grided p{
   font-size: 16px;
-  font-weight: 300px;
+  font-weight: 200;
 }
 
 .row-2{
@@ -212,18 +213,50 @@
   grid-row: span 2;
 }
 
+.footer{
+  background-image: url("assets/footer-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 412px;
+}
+
+.footer h1{
+  font-size: 5rem;
+  font-weight: bolder;
+  color:#FFFFFF;
+  padding-top: 102px;
+}
+
+.footer ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 40px;
+  color: #FFFFFF;
+  padding: 15px 0;
+  font-weight: 200;
+}
+
+.footer p{
+  font-size: 14px;
+  font-weight: 200;
+  color:#FFFFFF;
+}
+
 .featured-card-contaner{
   display: flex;
   width: 1200px;
   justify-content: center;
   margin: 0 auto;
-  gap: 15px;
+  gap: 30px;
 }
 
 .featured-card{
   background-color: #250a49;
   color:#FFFFFF;
-  width: 380px;
+  width: 400px;
   height: 440px;
   border-radius: 20px;
 }
@@ -240,7 +273,7 @@
 
 .featured-card p{
   font-size: 1rem;
-  font-weight:300;
+  font-weight:200;
   padding: 0 24px 0 24px;
 }
 
@@ -254,16 +287,33 @@
   padding: 24px 24px 0px 24px;
 }
 
-.footer{
-  background-image: url("assets/footer-bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
+.container{
+  background-color: #250a49;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  gap: 24px;
+  padding: 40px;
+  border-radius: 20px;
 }
 
-.footer h1{
-  font-size: 5rem;
-  font-weight: bolder;
-  color:#FFFFFF;
+.social{
+  display: flex;
+  gap: 8px;
 }
+
+.icon{
+  background-color: #402d5a;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  align-content: center;
+  }
+
+  .icon img{
+    width: 20px;
+    height: 20px;
+  }
